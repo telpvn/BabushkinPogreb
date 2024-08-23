@@ -1,0 +1,17 @@
+2024-08-23 13:13:49 DEBUG TelegramBot:31 - Hello 6
+2024-08-23 13:21:02 DEBUG TelegramBot:32 - Hello 7
+2024-08-23 14:16:32 DEBUG TelegramBot:34 - Hello from bot
+2024-08-23 14:16:32 ERROR TelegramBot:47 - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+2024-08-23 14:25:57 DEBUG TelegramBot:34 - Валерий Планкин, [23.08.2024 12:01]
+Снова начинаю на ноуте
+
+TelpvnBP, [23.08.2024 14:16]
+Hello from bot
+2024-08-23 14:26:18 DEBUG TelegramBot:34 - Валерий Планкин, [23.08.2024 12:01]
+Снова начинаю на ноуте
+
+TelpvnBP, [23.08.2024 14:16]
+Hello from bot
+
+TelpvnBP, [23.08.2024 14:25]
+Hello from bot
