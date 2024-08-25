@@ -15,3 +15,13 @@ Hello from bot
 
 TelpvnBP, [23.08.2024 14:25]
 Hello from bot
+2024-08-25 18:49:46 DEBUG UpdateProducerImpl:13 - Hello 8
+2024-08-25 18:50:06 DEBUG UpdateProducerImpl:13 - Hello 8
+2024-08-25 18:50:06 DEBUG UpdateProducerImpl:13 - sfsdf
+2024-08-25 18:50:27 DEBUG UpdateProducerImpl:13 - hello
+2024-08-25 18:58:06 DEBUG UpdateProducerImpl:13 - test
+2024-08-25 18:59:12 DEBUG UpdateProducerImpl:13 - test
+2024-08-25 18:59:28 DEBUG UpdateProducerImpl:13 - test
+2024-08-25 18:59:49 ERROR UpdateController:37 - Unsupported message type is received: Update(updateId=452502912, message=null, inlineQuery=null, chosenInlineQuery=null, callbackQuery=null, editedMessage=Message(messageId=40, from=User(id=504708517, firstName=Валерий, isBot=false, lastName=Планкин, userName=telpvn, languageCode=ru, canJoinGroups=null, canReadAllGroupMessages=null, supportInlineQueries=null, isPremium=null, addedToAttachmentMenu=null), date=1724597967, chat=Chat(id=504708517, type=private, title=null, firstName=Валерий, lastName=Планкин, userName=telpvn, photo=null, description=null, inviteLink=null, pinnedMessage=null, stickerSetName=null, canSetStickerSet=null, permissions=null, slowModeDelay=null, bio=null, linkedChatId=null, location=null, messageAutoDeleteTime=null, hasPrivateForwards=null, HasProtectedContent=null, joinToSendMessages=null, joinByRequest=null), forwardFrom=null, forwardFromChat=null, forwardDate=null, text=test55, entities=null, captionEntities=null, audio=null, document=null, photo=null, sticker=null, video=null, contact=null, location=null, venue=null, animation=null, pinnedMessage=null, newChatMembers=[], leftChatMember=null, newChatTitle=null, newChatPhoto=null, deleteChatPhoto=null, groupchatCreated=null, replyToMessage=null, voice=null, caption=null, superGroupCreated=null, channelChatCreated=null, migrateToChatId=null, migrateFromChatId=null, editDate=1724597988, game=null, forwardFromMessageId=null, invoice=null, successfulPayment=null, videoNote=null, authorSignature=null, forwardSignature=null, mediaGroupId=null, connectedWebsite=null, passportData=null, forwardSenderName=null, poll=null, replyMarkup=null, dice=null, viaBot=null, senderChat=null, proximityAlertTriggered=null, messageAutoDeleteTimerChanged=null, isAutomaticForward=null, hasProtectedContent=null, webAppData=null, videoChatStarted=null, videoChatEnded=null, videoChatParticipantsInvited=null, videoChatScheduled=null), channelPost=null, editedChannelPost=null, shippingQuery=null, preCheckoutQuery=null, poll=null, pollAnswer=null, myChatMember=null, chatMember=null, chatJoinRequest=null)
+2024-08-25 19:01:47 DEBUG UpdateProducerImpl:13 - 
+2024-08-25 19:02:51 DEBUG UpdateProducerImpl:13 - 
