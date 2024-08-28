@@ -7,3 +7,5 @@
 2024-08-27 13:36:16 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
 2024-08-27 13:37:23 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
 2024-08-27 13:41:17 DEBUG ConsumerServiceImpl:25 - NODE: Text message is received
+2024-08-28 13:31:48 DEBUG ConsumerServiceImpl:24 - NODE: Text message is received
+2024-08-28 13:37:51 DEBUG ConsumerServiceImpl:24 - NODE: Text message is received
