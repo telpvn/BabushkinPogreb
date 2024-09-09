@@ -8,6 +8,7 @@ import org.telegram.telegrambots.meta.api.objects.User;
 import ru.relex.dao.AppUserDAO;
 import ru.relex.dao.RawDataDAO;
 import ru.relex.entity.AppDocument;
+import ru.relex.entity.AppPhoto;
 import ru.relex.entity.AppUser;
 import ru.relex.entity.RawData;
 import ru.relex.exceptions.UploadFileException;
@@ -75,7 +76,7 @@ public class MainServiceImpl implements MainService {
             AppDocument doc = fileService.processDoc(update.getMessage());
             //TODO Добавить генерацию ссылки для скачивания документа)
             var answer = "Документ успешно загружен! "
-                                + "Ссылка для скачивания: http://test.ru/get-doc/777";
+                    + "Ссылка для скачивания: http://test.ru/get-doc/777";
             sendAnswer(answer, chatId);
         } catch (UploadFileException ex) {
             log.error(ex);
@@ -93,17 +94,24 @@ public class MainServiceImpl implements MainService {
             return;
         }
 
-        //TODO добавить сохранения фото :)
-        var answer = "Фото успешно загружено!"
-                        + "Ссылка для скачивания: http://test.ru/get-photo/777";
-        sendAnswer(answer, chatId);
+        try {
+            AppPhoto photo = fileService.processPhoto(update.getMessage());
+            //TODO добавить генерацию ссылки для скачивания фото :)
+            var answer = "Фото успешно загружено!"
+                    + "Ссылка для скачивания: http://test.ru/get-photo/777";
+            sendAnswer(answer, chatId);
+        } catch (UploadFileException ex) {
+            log.error(ex);
+            String error = "К сожалению, загрузка фото не удалась. Повторите попытку позже.";
+            sendAnswer(error, chatId);
+        }
     }
 
     private boolean isNotAllowToSendContent(Long chatId, AppUser appUser) {
         var userState = appUser.getState();
         if (!appUser.getIsActive()) {
             var error = "Зарегистрируйтесь или активируйте "
-                            + "свою учетную запись для загрузки контента.";
+                    + "свою учетную запись для загрузки контента.";
             sendAnswer(error, chatId);
             return true;
         } else if (!BASIC_STATE.equals(userState)) {
@@ -166,8 +174,8 @@ public class MainServiceImpl implements MainService {
 
     private void saveRawData(Update update) {
         RawData rawData = RawData.builder()
-                         .event(update)
-                         .build();
+                .event(update)
+                .build();
         rawDataDAO.save(rawData);
     }
 }
