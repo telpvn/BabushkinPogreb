@@ -2,9 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/c0a7e71b-71f4-4e3f-b990-6471030cc141/console.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comman-utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-jpa/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-rabbitmq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dispatcher/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dispatcher/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/node/src/main/java" charset="UTF-8" />

@@ -1422,3 +1422,5 @@
 2024-09-22 08:06:25 DEBUG ConsumerServiceImpl:24 - NODE: Text message is received
 2024-09-22 21:44:06 DEBUG ConsumerServiceImpl:31 - NODE: Doc message is received
 2024-09-22 21:44:58 DEBUG ConsumerServiceImpl:38 - NODE: Photo message is received
+2024-09-23 11:58:02 DEBUG ConsumerServiceImpl:38 - NODE: Photo message is received
+2024-09-23 12:00:50 DEBUG ConsumerServiceImpl:31 - NODE: Doc message is received
